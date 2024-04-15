@@ -1,0 +1,67 @@
+html {
+     box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.first-image {
+ background-image: url(img/images.jpg);
+ min-height: 400px;
+ opacity: 0.8;
+
+}
+.second-image {
+    background-image: url(img/img_1.jpg);
+    min-height: 400px;
+
+}
+.third-image {
+    background-image: url(img/img_3.jpg);
+    min-height: 400px;
+}
+.fourth-image {
+   background-image: url(img/img_4.jpg);
+   min-height: 400px;
+   opacity: 0.8;
+}
+
+section {
+    text-align: center;
+    padding: 3rem 5rem;
+}
+.section-light {
+    background-color: #f4f4f4 ;
+    color: #0f0f0f;
+}
+.section-dark {
+    background-color: #282334;
+    color: #ddd;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    letter-spacing: 8px;
+}
+.first-image span {
+    background-color: #111;
+    padding: 10px 10px;
+}
